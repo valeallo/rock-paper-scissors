@@ -28,11 +28,13 @@ function playRound(playerSelection, computerSelection) {
 }
 
 function getRandomChoice() {
-
+  const choices = ['ROCK', 'PAPER', 'SCISSORS'];
+  const randomIndex = Math.floor(Math.random() * choices.length);
+  return choices[randomIndex];
 }
 
 function isGameOver() {
-  
+  console.log('game is over');
 }
 
 // UI
