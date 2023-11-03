@@ -32,7 +32,7 @@ function getRandomChoice() {
 }
 
 function isGameOver() {
-  
+  console.log('game is over');
 }
 
 // UI
