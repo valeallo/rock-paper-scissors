@@ -1,6 +1,6 @@
 :root {
   --primary-light: #ddd;
-  --primary-dark: #222831;
+  --primary-dark: #1c57b0;
   --secondary-dark: #393e46;
   --secondary-dark-hover: #4a4f57;
   --secondary-dark-active: #5b5f68;
@@ -23,8 +23,8 @@ html {
 }
 
 body {
-  background-color: var(--primary-dark);
-  color: var(--primary-light);
+  background-color: #4ec7da;
+  color:  #ddd;
   font-family: 'Roboto', sans-serif;
   line-height: 1.6;
   /* footer support */
@@ -51,7 +51,7 @@ button {
 
 .title {
   font-size: 32px;
-  color: var(--primary-yellow);
+  color: #fac650;
   font-family: 'Press Start 2P', cursive;
 }
 
@@ -104,7 +104,7 @@ button {
 
 .btn {
   border-radius: 10px;
-  background-color: var(--secondary-dark);
+  background-color:  #393e46;
 }
 
 .btn-square {
@@ -161,7 +161,7 @@ button {
   width: 300px;
   padding: 30px;
   border-radius: 10px;
-  background-color: var(--primary-dark);
+  background-color: #1c57b0;
   text-align: center;
   font-size: 30px;
   user-select: none;
