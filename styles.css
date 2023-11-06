@@ -2,9 +2,9 @@
   --primary-light: #ddd;
   --primary-dark: #1c57b0;
   --secondary-dark: #393e46;
-  --secondary-dark-hover: #4a4f57;
-  --secondary-dark-active: #5b5f68;
-  --header: #111720;
+  --secondary-dark-hover: #3d1141;
+  --secondary-dark-active: ##833F8C;
+  --header: #833F8C;
   --primary-yellow: #fac650;
 }
 
@@ -23,8 +23,8 @@ html {
 }
 
 body {
-  background-color: #4ec7da;
-  color:  #ddd;
+  background-color: #A44BA6;
+  color:  #1c1c1c;
   font-family: 'Roboto', sans-serif;
   line-height: 1.6;
   /* footer support */
@@ -51,7 +51,8 @@ button {
 
 .title {
   font-size: 32px;
-  color: #fac650;
+  color: #000;
+  text-shadow: 1px 1px 1px  #fac650;
   font-family: 'Press Start 2P', cursive;
 }
 
@@ -61,7 +62,6 @@ button {
   margin-top: 40px;
   text-align: center;
 }
-
 .scoreboard {
   margin-bottom: 15px;
 }
@@ -91,8 +91,8 @@ button {
 .score {
   margin-top: 10px;
   margin-bottom: 20px;
-  font-size: 22px;
-  font-weight: bold;
+  font-size: 20px;
+  font-weight: lighter;
 }
 
 .buttons {
@@ -103,8 +103,9 @@ button {
 }
 
 .btn {
-  border-radius: 10px;
-  background-color:  #393e46;
+
+  border-radius: 50%;
+  background-color:  #6a2970;
 }
 
 .btn-square {
@@ -125,6 +126,7 @@ button {
   margin-bottom: 10px;
 }
 
+
 /* FOOTER */
 
 .footer {
@@ -137,12 +139,12 @@ button {
   gap: 10px;
   width: 100%;
   padding: 10px;
-  color: var(--primary-light);
+  color: var(--secondary-dark);
   font-size: 20px;
 }
 
 .fa-github {
-  color: var(--primary-light);
+  color: var(--secondary-dark);
   font-size: 24px;
   transition: transform 0.3s ease-in-out;
 }
@@ -207,7 +209,11 @@ button {
   }
 
   .score-info {
-    font-size: 26px;
+    font-size: 20px;
+    font-weight:lighter;
+  }
+  .score-message{
+    font-weight: lighter;
   }
 
   .buttons {
@@ -220,7 +226,7 @@ button {
   }
 
   .sign {
-    font-size: 50px;
+    font-size: 70px;
   }
 
   .modal {
