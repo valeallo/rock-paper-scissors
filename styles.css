@@ -24,7 +24,7 @@ html {
 
 body {
   background-color: #4ec7da;
-  color:  #ddd;
+  color:  #000000;
   font-family: 'Roboto', sans-serif;
   line-height: 1.6;
   /* footer support */
@@ -137,12 +137,12 @@ button {
   gap: 10px;
   width: 100%;
   padding: 10px;
-  color: var(--primary-light);
+  color: var(--secondary-dark);
   font-size: 20px;
 }
 
 .fa-github {
-  color: var(--primary-light);
+  color: var(--secondary-dark);
   font-size: 24px;
   transition: transform 0.3s ease-in-out;
 }
